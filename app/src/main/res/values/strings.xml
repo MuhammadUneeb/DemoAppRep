@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="API_KEY">AIzaSyDKDVVNL5FeC6oEKMdVMascV7WDuglvu8c</string>
+    <string name="WEATHER_API_KEY">8e0bbd9af121d62b656f852e86bb0214</string>
+</resources>

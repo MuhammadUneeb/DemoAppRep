@@ -1,0 +1,65 @@
+[versions]
+agp = "8.3.2"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.7.0"
+activityCompose = "1.9.0"
+composeBom = "2023.08.00"
+hiltVersion = "2.49"
+retrofitVersion ="2.11.0"
+lifecycleVersion = "2.8.0"
+corruotineVersion= "1.7.3"
+hiltViewModelVersion="1.2.0"
+hiltCommonVersion="1.2.0"
+extendedIconVersion = "1.4.3"
+navigationVersion = "2.7.7"
+composeHilrNavigationVersion = "1.1.0"
+roomDbVersion = "2.6.1"
+logging-interceptor-version="4.9.0"
+kspDevToolVersiom= "1.8.10-1.0.9"
+coreKtxVersion = "1.6.1"
+junitKtx = "1.2.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-hilt={group="com.google.dagger", name="hilt-android",version.ref="hiltVersion"}
+androidx-hilt-common={group="androidx.hilt",name="hilt-common",version.ref="hiltCommonVersion"}
+androidx-hilt-compiler = {group= "com.google.dagger",name="hilt-android-compiler",version.ref="hiltVersion" }
+retrofit-module-dependancy={group="com.squareup.retrofit2",name="retrofit",version.ref="retrofitVersion"}
+gson-convertor-dependancy={group="com.squareup.retrofit2",name="converter-gson",version.ref="retrofitVersion"}
+viewModel-lifeCycle-dependancy={group="androidx.lifecycle",name="lifecycle-viewmodel-ktx",version.ref="lifecycleVersion"}
+viewModel-lifeCycle-compose-dependancy={group="androidx.lifecycle",name="lifecycle-viewmodel-compose",version.ref="lifecycleVersion"}
+corroutine-dependancy={group="org.jetbrains.kotlinx",name="kotlinx-coroutines-play-services",version.ref="corruotineVersion"}
+hiltViewModel-dependancy={group="androidx.hilt",name="hilt-navigation-compose",version.ref="hiltViewModelVersion"}
+androidx-compose-extended-icon={group="androidx.compose.material",name="material-icons-extended",version.ref="extendedIconVersion"}
+androidx-navigation-dependency={group="androidx.navigation",name="navigation-compose",version.ref="navigationVersion"}
+compose-hilt-navigation-dependency={group="androidx.hilt",name="hilt-navigation-compose",version.ref="composeHilrNavigationVersion"}
+room-db-runtime-dependency ={group="androidx.room",name="room-runtime",version.ref="roomDbVersion"}
+room-db-dependency={group="androidx.room",name="room-ktx",version.ref="roomDbVersion"}
+room-compiler={group="androidx.room",name="room-compiler",version.ref="roomDbVersion"}
+logging-interceptor-dependency={group="com.squareup.okhttp3", name="logging-interceptor",version.ref="logging-interceptor-version"}
+core-ktx = { group = "androidx.test", name = "core-ktx", version.ref = "coreKtxVersion" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+hiltRootPlugin = { id = "com.google.dagger.hilt.android" , version.ref = "hiltVersion"}
+
